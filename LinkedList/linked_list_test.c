@@ -7,12 +7,10 @@
 
 void Tst_LinkedList(void);
 
-int main(){
-
+int main(void)
+{
 
     Tst_LinkedList();
-
-
 
     return 0;
 }
