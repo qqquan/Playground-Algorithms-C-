@@ -8,29 +8,15 @@
 void Tst_LinkedList(void);
 
 int main(){
-    printf("Hello world\n");
-    //system("pause");
 
-    int v1 = 0xffffffff;
-    int v2 = 3;
-
-    printf("\nTest Result:\n %d \n\n", p1(v1,v2));
 
     Tst_LinkedList();
 
 
 
-    return 22;
+    return 0;
 }
 
-
-int p1(int x, int y)
-{
-
-
-	return x - y;
-
-}
 
 typedef struct LinkedList_NodeStruct
 {
