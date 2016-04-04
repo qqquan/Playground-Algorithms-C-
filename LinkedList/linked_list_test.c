@@ -116,23 +116,6 @@ LinkedList_Node* LL_Search(LinkedList *plist, int k)
     {
         pnode = plist->head;
 
-
-    #if 0  //my inferior code: 
-        LinkedList_Node *ret_pnode = NULL;
-
-        while(pnode != NULL)
-        {
-            if (pnode->val == k)
-            {
-                ret_pnode = pnode;
-                break;
-            }
-
-            pnode = pnode->next;
-
-        }
-    #endif
-
         //leason learned: exit condition right at the while loop condition, instead of break at the exit condition inside the loop
         while( (pnode != NULL) && (pnode->val != k) ) 
         {
