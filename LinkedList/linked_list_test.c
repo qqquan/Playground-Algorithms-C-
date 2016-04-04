@@ -29,7 +29,6 @@ typedef struct LinkedList_NodeStruct
 typedef struct 
 {
    LinkedList_Node *head;
-   //LinkedList_Node *tail; 
 }LinkedList;
 
 LinkedList_Node* LL_Search(LinkedList *plist, int k);
@@ -38,7 +37,7 @@ void LL_Insert(LinkedList* plist, LinkedList_Node *pnode);
 
 void LL_Printall(LinkedList* plist);
 
-#define LL_NODE_MAX_NUM 10
+#define LL_NODE_MAX_NUM 12
 
 void Tst_LinkedList(void)
 {
